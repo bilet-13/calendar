@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { validateToken } from 'api/Controllers/user'
-
+/*XD*/
 import Index from 'pages/Index'
 import * as Admin from 'pages/Admin'
 import * as Courses from 'pages/Courses'
