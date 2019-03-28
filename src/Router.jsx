@@ -119,7 +119,6 @@ const Router = enhance(({ currentUser }) => {
         <Route path='/course_maps/:id' component={loginOnly(CourseMap)} />
         <Route path='/calendar' component={Calendar} />
 
-
         {/* score route group */}
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />
         <Route path='/scores/gpa' component={loginOnly(Scores.GPA)} />
