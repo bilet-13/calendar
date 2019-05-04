@@ -11,6 +11,7 @@ import { validateToken } from 'api/Controllers/user'
 
 import Index from 'pages/Index'
 import * as Admin from 'pages/Admin'
+import * as Calander from'pages/Calander'
 import * as Courses from 'pages/Courses'
 import * as Comments from 'pages/Comments'
 import * as PastExams from 'pages/PastExams'
@@ -90,6 +91,9 @@ const Router = enhance(({ currentUser }) => {
         <Route path='/courses/tutorial' component={Courses.Tutorial} />
         <Route path='/courses/simulation' component={loginOnly(Courses.Simulation)} />
         <Route path='/courses/:id' component={Courses.Show} />
+
+        {/*calander route */}
+        <Route path='/Calander/Bilet' component={Calander.Bilet} />
 
         {/* discuss route group */}
         <Route exact path='/comments' component={Comments.Index} />
