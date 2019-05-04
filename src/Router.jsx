@@ -20,7 +20,7 @@ import CourseMap from 'pages/CourseMap'
 import { UserNavigation } from 'components/User'
 import * as User from 'pages/User'
 import * as Scores from 'pages/Scores'
-import Calendar from 'pages/Calendar'
+import Schedule from 'pages/Schedule'
 
 import PageNotFound from 'pages/PageNotFound'
 import Login from 'pages/Login'
@@ -117,7 +117,7 @@ const Router = enhance(({ currentUser }) => {
 
         {/* course map */}
         <Route path='/course_maps/:id' component={loginOnly(CourseMap)} />
-        <Route path='/calendar' component={Calendar} />
+        <Route path='/schedule' component={Schedule} />
 
         {/* score route group */}
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />

@@ -1,0 +1,151 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
+	height: 50vh;
+}
+.month{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 9vw;
+	height: 3vh;
+	background-color: #fff;
+	.arrow{
+		margin-left: 5%;
+		width: 10%;
+	}
+	.monthTitle{
+		display: flex;
+		justify-content: center;
+		width: 70%;
+	}
+	.arrow2{
+		width: 10%;
+		margin-right: 5%;
+	}
+}
+.day{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 30vw;
+	height: 5vh;
+	background-color: #fff;
+	.dayItem{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 13.5%;
+	}
+}
+.date{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	height: 40vh;
+	background-color: #fff;
+	.dateItem{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 13.5%;
+		height: 13%;
+		margin-bottom: 1%;
+		.colorbarQuiz{
+			width: 35%;
+			height: 0.3vh;
+			margin-right: 20%;
+			margin-left: 20%;
+			border-radius: 20%;
+			background-color: #DB6DA4;
+		}
+		.colorbarHW{
+			width: 35%;
+			height: 0.3vh;
+			margin-right: 20%;
+			margin-left: 20%;
+			border-radius: 20%;
+			background-color: #5FABE6;
+		}
+		.colorbarHoli{
+			width: 35%;
+			height: 0.3vh;
+			margin-right: 20%;
+			margin-left: 20%;
+			border-radius: 20%;
+			background-color: #EFA647;
+		}
+		.colorbarActi{
+			width: 35%;
+			height: 0.3vh;
+			margin-right: 20%;
+			margin-left: 20%;
+			border-radius: 20%;
+			background-color: #3DA05E;
+		}
+		.dateNumber{
+			display: flex;
+			justify-content: center;
+			width: 80%;
+			height: 40%;
+			font-size: 1em;
+		}
+		.dateNumberNot{
+			display: flex;
+			justify-content: center;
+			width: 80%;
+			height: 40%;
+			font-size: 1em;
+			color: #BABABA;
+		}
+	}
+}
+.infobar{
+	display: flex;
+	flex-wrap: wrap;
+	width:30vw;
+	height: 5vh;
+	padding-left: 3%;
+	.infoItem{
+		display: flex;
+		align-items: center;
+		width: 16%;
+		height:100%;
+		.colorbarQuiz{
+			width: 28%;
+			height: 0.3vh;
+			margin-right: 10%;
+			margin-left: 10%;
+			border-radius: 30%;
+			background-color: #DB6DA4;
+		}
+		.colorbarHW{
+			width: 28%;
+			height: 0.3vh;
+			margin-right: 10%;
+			margin-left: 10%;
+			border-radius: 30%;
+			background-color: #5FABE6;
+		}
+		.colorbarHoli{
+			width: 28%;
+			height: 0.3vh;
+			margin-right: 10%;
+			margin-left: 10%;
+			border-radius: 30%;
+			background-color: #EFA647;
+		}
+		.colorbarActi{
+			width: 28%;
+			height: 0.3vh;
+			margin-right: 10%;
+			margin-left: 10%;
+			border-radius: 30%;
+			background-color: #3DA05E;
+		}
+	}
+}
