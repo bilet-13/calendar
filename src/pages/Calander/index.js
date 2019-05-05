@@ -1,3 +1,3 @@
 import Bilet from './Bilet'
 
-export {Bilet}
+export { Bilet }
