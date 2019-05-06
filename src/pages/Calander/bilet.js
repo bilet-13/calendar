@@ -4,6 +4,7 @@ import style from './style.scss'
 class bilet extends React.Component {
   render () {
     return (
+      <div>
       <Layout>
         <div className={style.space} />
         <div className={style.box}>
@@ -72,6 +73,7 @@ class bilet extends React.Component {
           </div>
         </div>
       </Layout>
+      </div>
     )
   }
 }
