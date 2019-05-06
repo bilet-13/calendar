@@ -11,6 +11,7 @@ import { validateToken } from 'api/Controllers/user'
 /*XD*/
 import Index from 'pages/Index'
 import * as Admin from 'pages/Admin'
+import Calendar from 'pages/Calendar'
 import * as Courses from 'pages/Courses'
 import * as Comments from 'pages/Comments'
 import * as PastExams from 'pages/PastExams'
@@ -120,6 +121,9 @@ const Router = enhance(({ currentUser }) => {
         {/* score route group */}
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />
         <Route path='/scores/gpa' component={loginOnly(Scores.GPA)} />
+
+        {/*calendar*/}
+        <Route path='/calendar' component={Calendar} />
 
         {/* user route group */}
         <Route exact path='/user' component={() => <Redirect to='/user/profile' />} />
