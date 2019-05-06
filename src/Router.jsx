@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { validateToken } from 'api/Controllers/user'
-/*XD*/
 import Index from 'pages/Index'
 import * as Admin from 'pages/Admin'
 import Calendar from 'pages/Calendar'
@@ -122,7 +121,7 @@ const Router = enhance(({ currentUser }) => {
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />
         <Route path='/scores/gpa' component={loginOnly(Scores.GPA)} />
 
-        {/*calendar*/}
+        {/* calendar */}
         <Route path='/calendar' component={Calendar} />
 
         {/* user route group */}
