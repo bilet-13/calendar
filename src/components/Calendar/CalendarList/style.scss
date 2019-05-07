@@ -1,0 +1,93 @@
+*{
+//border:solid 2px black; 
+}
+
+@mixin button($color:#eee,$fontcolor:black){
+  display: inline-block;
+  padding:2px 2px;
+  background-color: $color;
+  color:$fontcolor;
+  transition:0.5s;
+  
+  &.md{
+    padding:20px 40px;
+  }
+  &.sm{
+    padding:10px 20px;
+  }
+  &:hover{
+    background-color: lighten($color,10);
+  }
+}
+@mixin tag($color:blue){
+	background-color: $color;
+	margin-top:5px;
+	margin-left: 4px;
+	margin-right: 6px;
+	width: 35px;
+	height: 10px;
+	border-radius:32%;
+
+}
+.btnblack{
+  @include button(white,black);
+  transition: 0.5s;
+}
+.btnblack:hover{
+	background-color:	#AAAAAA;
+}
+.space{
+	height: 40vh;
+}
+.box{
+	background-color: white;
+	margin-top: 5vh;
+	width: 35vw;
+	//border:solid 2px black;
+}
+.title{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	//border:solid 0.5px;
+}
+.title date{
+	display: inline-flex;
+}
+ 
+.item{
+	background-color:	white;
+	display: flex;
+	//border:solid 1px;
+}
+.tagblue{
+	@include tag(blue);
+}
+.tagyellow{
+	@include tag(yellow);
+}
+.tagred{
+	@include tag(red);
+}
+.tagpink{
+	@include tag(pink);
+}
+.content{
+  width: 85%;
+  flex-direction: column;
+}
+.del{
+	margin-left: 5%;
+	padding: 0;
+}
+.shad{
+transition:0.5s;
+}
+.shad:hover{
+	background-color:	#AAAAAA;
+}
+.create{
+	margin-top: 10px;
+    justify-content:flex-end;
+    display: flex;
+}
