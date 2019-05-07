@@ -17,7 +17,7 @@ class bilet extends React.Component {
               日文(三)    作業
               </div>
               <div >
-              不想寫作業啦啦啦啦啦啦啦啦啦啦啦啦
+              寫作業寫作業寫作業寫作業
               </div>
             </div>
             <div className={style.del}>
@@ -31,7 +31,7 @@ class bilet extends React.Component {
               正規語言概論    小考
               </div>
               <div >
-              太可怕啦
+              小考小考小考小考小考小考!!!!
               </div>
             </div>
             <div className={style.del}>
@@ -45,7 +45,7 @@ class bilet extends React.Component {
               通識  報告
               </div>
               <div >
-              還趕下來啊冰鳥
+              報告報告報告~~~~
               </div>
             </div>
             <div className={style.del}>
@@ -59,7 +59,7 @@ class bilet extends React.Component {
               籃球梅竹賽
               </div>
               <div >
-              看籃球囉
+              籃球球球球球球球球球球球球球球球
               </div>
             </div>
             <div className={style.del}>
