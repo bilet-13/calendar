@@ -127,7 +127,6 @@ const Router = enhance(({ currentUser }) => {
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />
         <Route path='/scores/gpa' component={loginOnly(Scores.GPA)} />
 
-        
         {/* user route group */}
         <Route exact path='/user' component={() => <Redirect to='/user/profile' />} />
         <Route exact path='/user/static_table' component={User.StaticTable} />
