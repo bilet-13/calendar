@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './style.scss'
 
-
 const Schedule = () => (
 
   <div className={styles.container}>

@@ -1,7 +1,7 @@
 .container{
 	display: flex;
 	flex-direction: column;
-	width: 30vw;
+	width: 38vw;
 	height: 50vh;
 	margin-left: 12vw;
 }
@@ -31,7 +31,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	width: 30vw;
+	width: 38vw;
 	height: 5vh;
 	background-color: #fff;
 	.dayItem{
@@ -46,7 +46,7 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	width: 30vw;
+	width: 38vw;
 	height: 40vh;
 	background-color: #fff;
 	.dateItem{
@@ -108,7 +108,7 @@
 .infobar{
 	display: flex;
 	flex-wrap: wrap;
-	width:30vw;
+	width:38vw;
 	height: 5vh;
 	padding-left: 3%;
 	.infoItem{

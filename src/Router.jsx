@@ -8,10 +8,12 @@ import {
 } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { validateToken } from 'api/Controllers/user'
+
 /* XD */
 import Index from 'pages/Index'
 import * as Admin from 'pages/Admin'
 import Calander from 'pages/Calander'
+
 import * as Courses from 'pages/Courses'
 import * as Comments from 'pages/Comments'
 import * as PastExams from 'pages/PastExams'
@@ -125,6 +127,7 @@ const Router = enhance(({ currentUser }) => {
         <Route path='/scores/import' component={loginOnly(Scores.Import)} />
         <Route path='/scores/gpa' component={loginOnly(Scores.GPA)} />
 
+        
         {/* user route group */}
         <Route exact path='/user' component={() => <Redirect to='/user/profile' />} />
         <Route exact path='/user/static_table' component={User.StaticTable} />

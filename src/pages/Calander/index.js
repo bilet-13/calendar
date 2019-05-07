@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from 'pages/Layout'
 import style from './style.scss'
 import Schedule from 'components/calendar/Schedule'
+import Edit from 'components/calendar/Edit'
 class bilet extends React.Component {
   render () {
     return (
@@ -74,6 +75,7 @@ class bilet extends React.Component {
               <i className={`fa fa-plus-circle fa-lg ${style.shad}`} />
             </div>
           </div>
+          <Edit />
         </Layout>
       </div>
     )
